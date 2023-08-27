@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>document</title>
+    </head>
+    <style>
+.g{
+   color:blue;
+ }
+
+.g::before{
+    content:attr(data-text);
+    background-image:linear-gradient(20deg,blue,black,red,orange);
+    -webkit-backgroud-clip :text;
+    background-clip:text;
+
+}
+    </style>
+    <body>
+        <h1 class="g" data-text="hello world"></h1>
+    </body>
+</html>

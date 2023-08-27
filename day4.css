@@ -1,0 +1,69 @@
+h1{
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color:brown;
+}
+#box{
+   
+    width: 400px;
+    height: 400px;
+    background-color:pink;
+}
+body{
+    background-image:url("https://shorturl.at/iouOT")
+}
+#a{
+    padding: 25px;
+    padding-top:65px;
+    width: 350px;
+    height: 300px;
+}
+#b{
+    position:absolute;
+    top:440px;
+    left:10px;
+    text-decoration:none;
+    padding-left:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.c:hover{
+    color:red;
+
+}
+#d{
+    position:absolute;
+    top:62px;
+    left:50px;
+    width:370px;
+    height:400px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#e{
+    position:absolute;
+    right:400px;
+    top:50;
+    color:red;
+    text-decoration:dotted;
+
+
+}
+h3{
+    position:absolute;
+    right:300px;
+    top:80;
+    color:red;
+}
+h4{position:absolute;
+    right:330px;
+    top:100px;
+    color:red;
+
+
+}
+#f{
+    position: absolute;
+    right:200px;
+    top: 300px;
+}

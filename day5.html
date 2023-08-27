@@ -1,0 +1,59 @@
+<html>
+    <head>
+    <title>document</title>
+</head>
+<style>
+    #a{
+        grid-area:a;
+    }
+    #b{
+        grid-area:b;
+    }
+    #c{
+        grid-area:c;
+    }
+    #d{
+        grid-area:d;
+    }
+#e{
+   grid-area:e; 
+}
+#maindiv{
+    display:grid;
+    grid-template-areas:    "a   a  a   a"
+    "b b c c "
+    "d d e e ";
+    text-align:center;
+    font-size:30px;
+    padding:30px;
+    background-color:orange;
+    font-family:trebuchet;
+    border-radius:10px;
+    box-shadow:5px 5px 5px 5px ;
+}
+#maindiv div{
+color:white;
+text-shadow:5px 5px 5px 5px;
+background-image:linear-gradient(pink,black,blue,red);
+padding:10px;
+margin:10px;
+border-radius:20px;
+box-shadow:5px 5px 5px 5px lightpink;
+}
+
+</style>
+<body>
+    <div id="maindiv">
+    
+    <div id="a">Home</div>
+    <div id="b">contact us</div>
+    <div id="c">Events</div>
+    <div id="d">about us</div>
+    <div id="e">services</div>
+    
+</main>
+<h2 class="g">hello world</h2>
+
+
+</body>
+</html>
